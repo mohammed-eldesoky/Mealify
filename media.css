@@ -1,0 +1,549 @@
+/* ----------screens ---from very small mobile */
+@media (min-width: 320px) {
+  .navbar .container {
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .logo {
+    width: 100%;
+    text-align: center;
+  }
+  .darkmood {
+    width: 5%;
+    margin-left: 20px;
+    text-align: center;
+  }
+
+  .links {
+    width: 100%;
+  }
+  .links ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .links ul li a::before {
+    top: 70%;
+  }
+  #speacial::before {
+    top: 70%;
+  }
+
+  /* -------------------------end navvvvvv */
+
+  .header {
+    margin-top: 80px;
+  }
+  .header .container {
+    flex-direction: column-reverse;
+  }
+  .header-img {
+    width: 100%;
+  }
+
+  .header-info {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-button a .cyrcle {
+    display: block;
+    bottom: -8px;
+ 
+  }
+
+  .header-button a.table  {
+    margin-bottom: 35px;
+  }
+  .header-button {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .header-button a.video {
+    margin-top: 10px;
+    margin-right: 50px;
+  }
+
+  /* end-------------------header--------------- */
+.chefs .container {
+  flex-wrap: wrap;
+}
+
+.chef-card {
+  width: 100%;
+}
+
+.chef-card ul {
+  right: -15%;
+}
+.picture::before {
+  bottom: 40%;
+}
+
+/* -----------end------chefs------------ */
+.gallery .container {
+  flex-wrap: wrap;
+}
+
+.layout {
+  top: 120%;
+}
+
+.food {
+  width: 100%;
+}
+
+/* -------end--gallery------------ */
+
+.contact .title {
+  font-size: 45px;
+}
+.icons-contact .details {
+  width: 99%;
+}
+
+.contact-inputs input {
+  width: 100%;
+}
+.name-email input {
+  width: 100%;
+}
+.name-email {
+  width: 99%;
+}
+/* -------------end---contact--------- */
+.footer .container {
+  flex-wrap: wrap;
+}
+.about-mealify ,
+.subscribe ,
+.touch {
+  width: 100%;
+}
+.about-mealify p {
+  width: 100%;
+ text-align: left;
+ font-size: 22px;
+}
+.about-mealify h3 {
+  font-size: 25px;
+}
+.about-mealify ul li a i {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+.sub-caption h3 {
+  font-size: 23px;
+}
+.sub-caption p {
+  font-size: 22px;
+}
+.sub-email input {
+  margin-bottom: 5px;
+}
+.sub-email input ,
+.sub-email button  {
+  width: 100%;
+}
+
+.sub-links h3 {
+  font-size: 30px;
+}
+
+.sub-links ul li a {
+  font-size: 20px;
+}
+.sub-links {
+  margin-bottom: 15px;
+}
+.touch h3 {
+  font-size: 30px;
+}
+.icon-touch a,
+.icon-touch span  {
+font-size:20px ;
+}
+.icon-touch a i {
+  font-size: 30px;
+}
+/* ------------end----------footer----- */
+
+}
+
+@media (min-width: 640px) {
+  .navbar .container {
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .logo {
+    width: 100%;
+    text-align: center;
+  }
+  .darkmood {
+    width: 5%;
+    margin-left: 20px;
+    text-align: center;
+  }
+
+  .links {
+    width: 100%;
+  }
+  .links ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .links ul li a::before {
+    top: 70%;
+  }
+  #speacial::before {
+    top: 70%;
+  }
+
+  /* -------------------------end navvvvvv */
+
+  .header {
+    margin-top: 80px;
+  }
+  .header .container {
+    flex-direction: column-reverse;
+  }
+  .header-img {
+    width: 70%;
+  }
+
+  .header-info {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-button a span {
+    display: none;
+  }
+  .header-button {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .header-button a.video {
+    margin-top: 10px;
+    margin-right: 50px;
+  }
+  /* -----------------end---header-- */
+
+  .picture::before {
+    bottom: 21%;
+  }
+
+  /* --------------end-----------chefs--- */
+
+  .food {
+    width: 90%;
+    margin: 0 auto;
+  }
+  /* ---------end----gallery----- */
+
+
+}
+
+/* ---------------end  small------------------------ */
+@media (min-width: 768px) {
+  .navbar .container {
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .logo {
+    width: 100%;
+    text-align: center;
+  }
+  .darkmood {
+    width: 5%;
+    margin-left: 20px;
+    text-align: center;
+  }
+
+  .links {
+    width: 100%;
+  }
+  .links ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .links ul li a::before {
+    top: 70%;
+  }
+  #speacial::before {
+    top: 70%;
+  }
+
+  /* -------------------------end navvvvvv */
+
+  .header {
+    margin-top: 80px;
+  }
+  .header .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .header-img {
+    width: 40%;
+  }
+
+  .header-info {
+    width: 60%;
+    text-align: left;
+  }
+  .header-button a span {
+    display: none;
+  }
+  .header-button a .cyrcle  {
+    bottom: 40%;
+  }
+  .header-caption {
+    margin-right: 80px;
+  }
+  .header-button {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+  }
+
+  /* --------------------end -----------header */
+  .picture::before {
+    bottom: 18%;
+  }
+
+  .chef-card {
+    width: 47.5%;
+ 
+  }
+  .chefs .container {
+ margin: 0 auto;
+ 
+
+  }
+  /* ---------end----------chefs----- */
+.footer .container {
+  margin: 0 auto;
+  justify-content: center;
+}
+  .about-mealify ,
+.subscribe ,
+.touch {
+  width: 80%;
+}
+
+
+.sub-email input   {
+  width: 60%;
+}
+.sub-email button {
+  width: 30%;
+}
+
+
+}
+
+/* ----------end-------------medium */
+
+@media (min-width: 1024px) {
+  .navbar .logo {
+    width: 100%;
+  }
+
+  .links {
+    width: 100%;
+  }
+  .links ul {
+    display: flex;
+    width: 100%;
+  }
+
+  /* ----------end------------nav----- */
+  .header .container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+  }
+
+  .header-info {
+    width: 60%;
+    align-items: flex-start;
+
+    text-align: left;
+  }
+  .header-img {
+    width: 40%;
+  }
+  .header-button a .cyrcle  {
+    bottom: 40%;
+  }
+  .header-button a span {
+    display: none;
+  }
+
+  .header-button {
+    margin-left: 0;
+  }
+  /* --------------end--------header----------- */
+
+  .chef-card {
+    width: 30%;
+   
+  }
+
+  .picture::before {
+    bottom: 43%;
+  }
+
+
+  /* ----------------end--chefs-------- */
+.gallery .container {
+  flex-wrap: nowrap;
+}
+  .food {
+    width: 33.33%;
+  }
+
+
+  /* ------------end----gallery---- */
+
+
+  
+}
+
+/* -----------end -- ---lg------------ */
+
+@media (min-width: 1280px) {
+  .navbar .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .navbar .logo {
+    width: 10%;
+  }
+  .navbar .links {
+    width: 70%;
+  }
+  .darkmood {
+    width: 5%;
+  }
+
+  /* ----------end -nav--------- */
+  .header {
+    margin-top: 50px;
+  }
+  .header-button a .cyrcle  {
+    bottom: 40%;
+  }
+  .header-button a.video span {
+    display: block;
+    bottom: 11%;
+    left: 19.3%;
+  }
+  /*------------------ end----------header */
+
+  .chefs .container {
+    flex-wrap: nowrap;
+  }
+.chef-card {
+  width: 33.33%;
+}
+
+/* ------------end------chef----- */
+.contact-inputs {
+  width: 99.5%;
+}
+
+
+.contact .title {
+  font-size: 50px;
+}
+.icons-contact .details {
+  width: 49%;
+}
+
+.name-email input {
+  width: 49.2%;
+  
+}
+.name-email {
+  width: 100%;
+}
+
+/* --------------end----contact----------- */
+.footer .container {
+  flex-wrap: nowrap;
+}
+.about-mealify ,
+.touch  {
+  width: 25%;
+}
+.subscribe 
+{
+  width: 50%;
+}
+.about-mealify .mealify-title p {
+ 
+ text-align: left;
+ font-size: 30px;
+}
+.about-mealify p {
+  font-size: 16px;
+}
+.about-mealify h3 {
+  font-size:19px;
+}
+.about-mealify ul li a i {
+  font-size: 24px;
+ 
+}
+.sub-caption h3 {
+  font-size: 19px;
+}
+.sub-caption p {
+  font-size: 16px;
+}
+.sub-email input  {
+  width: 75%;
+  margin-right: 3px;
+}
+.sub-email button {
+ width: 21%;
+}
+
+.sub-links h3 {
+  font-size: 19px;
+}
+
+.sub-links ul li a {
+  font-size: 16px;
+}
+.touch h3 {
+  font-size: 19px;
+}
+.icon-touch a,
+.icon-touch span  {
+font-size:16px ;
+}
+.icon-touch a i {
+  font-size: 22px;
+}
+
+}
+
+/* ----------------end-------xl */
+@media (min-width: 1536px) {
+    
+}
+/* ----------end-----------xxl--- */
